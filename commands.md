@@ -5,6 +5,8 @@ djangorestframework 3.14.0
 python-dotenv 1.0.0
 pytest 7.3.2
 pytest-django 4.5.2
+black 23.3.0
+flake8 6.0.0
 
 # Using Django to generate secret key
 
