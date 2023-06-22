@@ -9,6 +9,7 @@ black 23.3.0
 flake8 6.0.0
 django-mptt 0.14.0
 drf-spectacular 0.26.2
+pytest-factoryboy 2.5.1
 
 # Using Django to generate secret key
 
@@ -16,6 +17,13 @@ drf-spectacular 0.26.2
 from django.core.managment.utils import get_random_secret_key
 print(get_random_secret_key)
 l&atp1l2+cq)#^^&psh9l7e=r^m&n#mpg3-scq)!jirrdqic&s
+
+# Testing
+
+## Run coverage
+
+coverage run -m pytest
+covarage html
 
 # Test api endpoints
 
