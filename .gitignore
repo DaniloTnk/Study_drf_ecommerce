@@ -1,0 +1,11 @@
+drf/
+
+venv/
+.pytest_cache
+**__pycache__/
+*py[cod]
+*$py.class
+db.sqlite*
+.env
+.coverage
+.vscode
