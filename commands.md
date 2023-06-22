@@ -22,3 +22,11 @@ l&atp1l2+cq)#^^&psh9l7e=r^m&n#mpg3-scq)!jirrdqic&s
 ## GET all caterogies
 
 curl -X 'GET' 'http://127.0.0.1:8000/api/category/' -H 'accept: _/_'
+
+## Get all brand
+
+curl -X 'GET' 'http://127.0.0.1:8000/api/brand/' -H 'accept: application/json'
+
+## Get all Products
+
+curl -X 'GET' 'http://127.0.0.1:8000/api/product/' -H 'accept: application/json'
