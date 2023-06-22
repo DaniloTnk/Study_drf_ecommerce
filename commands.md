@@ -8,6 +8,7 @@ pytest-django 4.5.2
 black 23.3.0
 flake8 6.0.0
 django-mptt 0.14.0
+drf-spectacular 0.26.2
 
 # Using Django to generate secret key
 
@@ -20,4 +21,4 @@ l&atp1l2+cq)#^^&psh9l7e=r^m&n#mpg3-scq)!jirrdqic&s
 
 ## GET all caterogies
 
-curl 127.0.0.1:8000/api/category/
+curl -X 'GET' 'http://127.0.0.1:8000/api/category/' -H 'accept: _/_'
